@@ -1,0 +1,19 @@
+.cart-top{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.cart img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.cart button{
+    background-color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+}

@@ -1,0 +1,19 @@
+.product-card{
+    width: 350px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+}
+.product-info h2{
+    line-height: 60px;
+}
+.product-card img{
+    width: 100%;
+}
+.product-card button{
+    background-color: orange;
+    border: 0;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
