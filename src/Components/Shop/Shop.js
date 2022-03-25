@@ -18,21 +18,22 @@ const Shop = () => {
         const newCart = [...cart, productItem];
         setCart(newCart);
     }
+    const drawProduct = (allItems) => {
+        const drawItem = [Math.floor(Math.random()*allItems.length)];
+        setCart(drawItem);
+    }
     const clearCart = (items) =>{
         if(items){
             setCart([]);
         }
     }
-    const drawProduct = (allItems) => {
-        const drawItem = [Math.random()*allItems.length];
-        setCart(drawItem);
-    }
+    
     return (
         <div className='shop-container'>
             <div className='product-container'>
                 {
                     products.map(product => <Product
-                        key={product.id} 
+                        key={product.id}
                         product={product}
                         handleAddToCart={handleAddToCart}
                         ></Product>)
