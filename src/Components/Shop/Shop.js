@@ -19,13 +19,11 @@ const Shop = () => {
         setCart(newCart);
     }
     const drawProduct = (cartItems) => {
-        const drawItem = [Math.floor(Math.random()*cartItems.length)];
-        setCart(drawItem);
+        const drawItem = Math.floor(Math.random()*cartItems.length);
+        setCart([drawItem]);
     }
-    const clearCart = (items) =>{
-        if(items){
+    const clearCart = () =>{
             setCart([]);
-        }
     }
     
     return (
@@ -45,7 +43,7 @@ const Shop = () => {
                     cart.map(cartItem => <Cart key={cartItem.id} cartItem={cartItem}></Cart>)
                 }
                 <button onClick={() => drawProduct(cart)}>Choose for you</button><br/>
-                <button onClick={() => clearCart(cart)}>Choose Again</button>
+                <button onClick={clearCart}>Choose Again</button>
             </div>
         </div>
     );

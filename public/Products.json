@@ -1,62 +1,42 @@
 [
     {"id" : 1,
-     "name" : "green book",
-     "img" : "https://img.freepik.com/free-photo/blue-sport-sedan-parked-yard_114579-5078.jpg?t=st=1648291231~exp=1648291831~hmac=39a3ac10883963ca252af9afdf73a8e9526f4f5db8df86cb79e18db88cdb495e&w=996",
-      "price" : "200"
+     "name" : "Black Car",
+     "img" : "https://img.freepik.com/free-photo/chrome-black-sport-car-parking-with-front-lights_114579-4020.jpg?t=st=1648291231~exp=1648291831~hmac=093f9c2e78f8cd123d5e1c3e8f395ef54700b6f6706ba35c7494441bc5ad888c&w=996"
     },
     {"id" : 2,
-     "name" : "black book",
-     "img" : "https://img.freepik.com/free-photo/blue-sport-sedan-parked-yard_114579-5078.jpg?t=st=1648291231~exp=1648291831~hmac=39a3ac10883963ca252af9afdf73a8e9526f4f5db8df86cb79e18db88cdb495e&w=996",
-      "price" : "200"
+     "name" : "Amazing Blue Car",
+     "img" : "https://img.freepik.com/free-photo/blue-sport-sedan-parked-yard_114579-5078.jpg?t=st=1648291231~exp=1648291831~hmac=39a3ac10883963ca252af9afdf73a8e9526f4f5db8df86cb79e18db88cdb495e&w=996"
     },
     {"id" : 3,
-     "name" : "red book",
-     "img" : "https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?t=st=1648291231~exp=1648291831~hmac=483fe8d48e7023fcdb10b1280feef54161a596d5a86409da830e4e9575429038&w=996",
-      "price" : "200"
+     "name" : "Red Sedan Car",
+     "img" : "https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?t=st=1648291231~exp=1648291831~hmac=483fe8d48e7023fcdb10b1280feef54161a596d5a86409da830e4e9575429038&w=996"
     },
     {"id" : 4,
-     "name" : "Book Name Here",
-     "img" : "https://img.freepik.com/free-photo/blue-jeep-parking-public-zone_114579-4042.jpg?t=st=1648291231~exp=1648291831~hmac=fe6c9d0ed57670f0850f8bfed4e30f9b9225f8bccaac5cef98bc6ca7f1af2c44&w=996",
-      "price" : "200"
+     "name" : "Blue SUV",
+     "img" : "https://img.freepik.com/free-photo/blue-jeep-parking-public-zone_114579-4042.jpg?t=st=1648291231~exp=1648291831~hmac=fe6c9d0ed57670f0850f8bfed4e30f9b9225f8bccaac5cef98bc6ca7f1af2c44&w=996"
     },
     {"id" : 5,
-     "name" : "Book Name Here",
-     "img" : "https://img.freepik.com/free-photo/silver-metallic-color-sport-sedan-road_114579-5035.jpg?t=st=1648291231~exp=1648291831~hmac=136d6112b665dead9cebb8bd2247be60a2e144f17048797d5e1ba542299ae5bb&w=996",
-      "price" : "200"
+     "name" : "Amazing Fastest Car",
+     "img" : "https://img.freepik.com/free-photo/silver-metallic-color-sport-sedan-road_114579-5035.jpg?t=st=1648291231~exp=1648291831~hmac=136d6112b665dead9cebb8bd2247be60a2e144f17048797d5e1ba542299ae5bb&w=996"
     },
     {"id" : 6,
-     "name" : "Book Name Here",
-     "img" : "https://img.freepik.com/free-photo/chrome-black-sport-car-parking-with-front-lights_114579-4020.jpg?t=st=1648291231~exp=1648291831~hmac=093f9c2e78f8cd123d5e1c3e8f395ef54700b6f6706ba35c7494441bc5ad888c&w=996",
-      "price" : "200"
+     "name" : "Awesome Mate Black Car",
+     "img" : "https://img.freepik.com/free-photo/chrome-black-sport-car-parking-with-front-lights_114579-4020.jpg?t=st=1648291231~exp=1648291831~hmac=093f9c2e78f8cd123d5e1c3e8f395ef54700b6f6706ba35c7494441bc5ad888c&w=996"
     },
     {"id" : 7,
-     "name" : "Book Name Here",
-     "img" : "https://img.freepik.com/free-photo/white-luxury-sport-sedan-car-standing-race-trace-front-side-view_114579-1161.jpg?t=st=1648291231~exp=1648291831~hmac=33c3261595835c020b08ae902ef3d65e626657c404a6c01c7b9397939953f90a&w=996",
-      "price" : "200"
+     "name" : "Fastest White Car",
+     "img" : "https://img.freepik.com/free-photo/white-luxury-sport-sedan-car-standing-race-trace-front-side-view_114579-1161.jpg?t=st=1648291231~exp=1648291831~hmac=33c3261595835c020b08ae902ef3d65e626657c404a6c01c7b9397939953f90a&w=996"
     },
     {"id" : 8,
-     "name" : "Book Name Here",
-     "img" : "https://img.freepik.com/free-psd/book-cover-mockup_125540-572.jpg?t=st=1648221986~exp=1648222586~hmac=be550fb7817343a613ce2f8b92903679499287402c1708f9f657a24d1cb37312&w=996",
-      "price" : "200"
+     "name" : "Luxury SUV Car",
+     "img" : "https://img.freepik.com/free-photo/blue-jeep-parking-public-zone_114579-4042.jpg?t=st=1648291231~exp=1648291831~hmac=fe6c9d0ed57670f0850f8bfed4e30f9b9225f8bccaac5cef98bc6ca7f1af2c44&w=996"
     },
     {"id" : 9,
-     "name" : "Book Name Here",
-     "img" : "https://img.freepik.com/free-psd/book-cover-mockup_125540-572.jpg?t=st=1648221986~exp=1648222586~hmac=be550fb7817343a613ce2f8b92903679499287402c1708f9f657a24d1cb37312&w=996",
-      "price" : "200"
+     "name" : "Luxury Sedan Car",
+     "img" : "https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?t=st=1648291231~exp=1648291831~hmac=483fe8d48e7023fcdb10b1280feef54161a596d5a86409da830e4e9575429038&w=996"
     },
     {"id" : 10,
-     "name" : "Book Name Here",
-     "img" : "https://img.freepik.com/free-psd/book-cover-mockup_125540-572.jpg?t=st=1648221986~exp=1648222586~hmac=be550fb7817343a613ce2f8b92903679499287402c1708f9f657a24d1cb37312&w=996",
-      "price" : "200"
-    },
-    {"id" : 11,
-     "name" : "Book Name Here",
-     "img" : "https://img.freepik.com/free-psd/book-cover-mockup_125540-572.jpg?t=st=1648221986~exp=1648222586~hmac=be550fb7817343a613ce2f8b92903679499287402c1708f9f657a24d1cb37312&w=996",
-      "price" : "200"
-    },
-    {"id" : 12,
-     "name" : "Book Name Here",
-     "img" : "https://img.freepik.com/free-psd/book-cover-mockup_125540-572.jpg?t=st=1648221986~exp=1648222586~hmac=be550fb7817343a613ce2f8b92903679499287402c1708f9f657a24d1cb37312&w=996",
-      "price" : "200"
+     "name" : "Luxury Fastest Car",
+     "img" : "https://img.freepik.com/free-photo/white-luxury-sport-sedan-car-standing-race-trace-front-side-view_114579-1161.jpg?t=st=1648291231~exp=1648291831~hmac=33c3261595835c020b08ae902ef3d65e626657c404a6c01c7b9397939953f90a&w=996"
     }
 ]
