@@ -19,10 +19,8 @@ const Shop = () => {
         setCart(newCart);
     }
     const drawProduct = (cartItems) => {
-        if(cartItems){
         const drawItem = [Math.floor(Math.random()*cartItems.length)];
         setCart(drawItem);
-        }
     }
     const clearCart = (items) =>{
         if(items){

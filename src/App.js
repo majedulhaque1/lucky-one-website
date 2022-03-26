@@ -1,4 +1,5 @@
 import './App.css';
+import Article from './Article/Article';
 import Header from './Components/Header/Header';
 import Shop from './Components/Shop/Shop';
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Shop></Shop>
+      <Article></Article>
     </div>
   );
 }
