@@ -1,7 +1,7 @@
 .product-card{
     width: 350px;
     height: 400px;
-    border: 2px solid orange;
+    border: 2px solid rgb(51, 204, 255);
     border-radius: 10px;
     padding: 10px;
 }
@@ -15,7 +15,7 @@
 .product-btn{
     display: flex;
     justify-content: space-between;
-    background-color: orange;
+    background-color: rgb(51, 204, 255);
     border: 0;
     color: #fff;
     padding: 10px 20px;

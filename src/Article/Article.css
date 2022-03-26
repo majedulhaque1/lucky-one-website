@@ -3,13 +3,24 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     padding: 20px 100px;
-    margin: 40px 0;
 }
+.article{
+    border: 2px solid rgb(51, 204, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+.article h2{
+    line-height: 40px;
+    color: rgb(51, 204, 255);
+}
+
 
 @media screen and (max-width: 600px){
     .article-container{
         grid-template-columns: 1fr;
-        margin: 0;
         padding: 0 40px;
+    }
+    .article{
+        width: 350px;
     }
 }

@@ -12,7 +12,7 @@
     width: auto;
     position: sticky;
     top: 0;
-    background-color: orange;
+    background-color: rgb(51, 204, 255);
     border-radius: 10px;
     margin-right: 20px;
     height: 500px;
@@ -22,7 +22,7 @@
     width: 250px;
     text-align: center;
     background-color: #fff;
-    color: orange;
+    color: rgb(51, 204, 255);
     padding: 10px 20px;
     border: 0;
     border-radius: 5px;

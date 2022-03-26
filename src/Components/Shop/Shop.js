@@ -6,6 +6,8 @@ import './Shop.css';
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
+    const [randomItem, setRandonItem] = useState([]);
+    console.log(randomItem);
     console.log(cart);
 
     useEffect( () =>{
@@ -18,9 +20,11 @@ const Shop = () => {
         const newCart = [...cart, productItem];
         setCart(newCart);
     }
-    const drawProduct = (cartItems) => {
-        const drawItem = Math.floor(Math.random()*cartItems.length);
-        setCart([drawItem]);
+    const drawProduct = () => {
+        let lengthItem = cart.length;
+        cart.map(cartI => cartI.id === randomItem);
+        // const drawItem = [Math.floor(Math.random()* lengthItem)];
+        setRandonItem(Math.floor(Math.random()* lengthItem));
     }
     const clearCart = () =>{
             setCart([]);
@@ -38,11 +42,11 @@ const Shop = () => {
                 }
             </div>
             <div className='cart-container'>
-                <h2>This is cart</h2>
+                <h2>Selected Cars</h2>
                 {
                     cart.map(cartItem => <Cart key={cartItem.id} cartItem={cartItem}></Cart>)
                 }
-                <button onClick={() => drawProduct(cart)}>Choose for you</button><br/>
+                <button onClick={drawProduct}>Choose 1 For You</button><br/>
                 <button onClick={clearCart}>Choose Again</button>
             </div>
         </div>
