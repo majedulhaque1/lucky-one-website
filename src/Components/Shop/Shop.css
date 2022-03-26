@@ -17,3 +17,12 @@
     height: 500px;
     padding: 20px;
 }
+.cart-container button{
+    width: 100%;
+    background-color: #fff;
+    color: orange;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    margin: 5px;
+}

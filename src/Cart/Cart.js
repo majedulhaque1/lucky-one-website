@@ -2,7 +2,6 @@ import React from 'react';
 import './Cart.css';
 
 const Cart = ({cartItem}) => {
-    console.log(cartItem.id);
     const {img, name} = cartItem;
     return (
         <div className='cart'>

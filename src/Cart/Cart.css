@@ -4,6 +4,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
+    padding: 10px 0;
 }
 .cart img{
     width: 40px;

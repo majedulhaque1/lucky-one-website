@@ -18,9 +18,11 @@ const Shop = () => {
         const newCart = [...cart, productItem];
         setCart(newCart);
     }
-    const drawProduct = (allItems) => {
-        const drawItem = [Math.floor(Math.random()*allItems.length)];
+    const drawProduct = (cartItems) => {
+        if(cartItems){
+        const drawItem = [Math.floor(Math.random()*cartItems.length)];
         setCart(drawItem);
+        }
     }
     const clearCart = (items) =>{
         if(items){
